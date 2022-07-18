@@ -26,7 +26,7 @@ namespace curso
             double altura = Convert.ToDouble(txtAltura.Text);
 
             double imc = peso / (altura*altura);
-            MessageBox.Show("Su IMC es: " + imc);
+            MessageBox.Show("Su IMC es de : " + imc);
             
         }
     }
